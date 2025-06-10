@@ -1,0 +1,23 @@
+# Global ownership
+* @kerenkhatiwada
+
+# API routes
+/src/app/api/ @kerenkhatiwada
+
+# Components
+/src/app/components/ @kerenkhatiwada
+
+# Configuration files
+*.json @kerenkhatiwada
+*.js @kerenkhatiwada
+*.ts @kerenkhatiwada
+
+# Documentation
+*.md @kerenkhatiwada
+
+# Next.js specific
+/next.config.js @kerenkhatiwada
+/middleware.js @kerenkhatiwada
+
+# Sentry configuration
+/sentry.*.config.js @kerenkhatiwada 
