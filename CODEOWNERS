@@ -5,7 +5,6 @@
 /src/app/api/ @kerenkhatiwada
 /src/**/* @kerenkhatiwada
 
-
 # Components
 /src/app/components/ @kerenkhatiwada
 
@@ -22,4 +21,45 @@
 /middleware.js @kerenkhatiwada
 
 # Sentry configuration
-/sentry.*.config.js @kerenkhatiwada 
+/sentry.*.config.js @kerenkhatiwada
+
+# App directory and all subdirectories
+/src/app/**/* @kerenkhatiwada
+
+# Public assets and all subdirectories
+/public/**/* @kerenkhatiwada
+
+# Cron jobs and all subdirectories
+/src/cron/**/* @kerenkhatiwada
+
+# All JavaScript/TypeScript files in any subdirectory
+**/*.js @kerenkhatiwada
+**/*.ts @kerenkhatiwada
+**/*.jsx @kerenkhatiwada
+**/*.tsx @kerenkhatiwada
+
+# All CSS files in any subdirectory
+**/*.css @kerenkhatiwada
+**/*.scss @kerenkhatiwada
+**/*.sass @kerenkhatiwada
+
+# All configuration files in any subdirectory
+**/config/**/* @kerenkhatiwada
+**/*.config.js @kerenkhatiwada
+**/*.config.ts @kerenkhatiwada
+
+# All test files in any subdirectory
+**/__tests__/**/* @kerenkhatiwada
+**/*.test.js @kerenkhatiwada
+**/*.test.ts @kerenkhatiwada
+**/*.spec.js @kerenkhatiwada
+**/*.spec.ts @kerenkhatiwada
+
+# All documentation in any subdirectory
+**/docs/**/* @kerenkhatiwada
+**/documentation/**/* @kerenkhatiwada
+
+# Additional patterns with **/ and **/*/
+**/ @kerenkhatiwada
+**/*.js @kerenkhatiwada
+**/*/ @kerenkhatiwada
