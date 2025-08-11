@@ -6,7 +6,6 @@ import * as Sentry from "@sentry/nextjs";
 
 export default function AboutPage() {
   const [apiResponse, setApiResponse] = useState(null);
-  const [spanResponse, setSpanResponse] = useState(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -20,19 +19,7 @@ export default function AboutPage() {
       }
     }
 
-    async function fetchSpanData() {
-      try {
-        const response = await fetch("/api/span");
-        const data = await response.json();
-        setSpanResponse(data.message);
-      } catch (error) {
-        console.error("Failed to fetch span data:", error);
-        setSpanResponse("Failed to fetch span data");
-      }
-    }
-
     fetchData();
-    fetchSpanData();
   }, []);
 
   const throwError = () => {
@@ -54,7 +41,6 @@ export default function AboutPage() {
 
       <p>Welcome to the About page!</p>
       <p>API Response: {apiResponse || "Loading..."}</p>
-      <p>Span API Response: {spanResponse || "Loading..."}</p>
       <Link href="/">Go home</Link>
     </div>
   );

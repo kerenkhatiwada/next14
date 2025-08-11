@@ -3,6 +3,8 @@
 
 # API routes
 /src/app/api/ @kerenkhatiwada
+/src/**/* @kerenkhatiwada
+
 
 # Components
 /src/app/components/ @kerenkhatiwada
