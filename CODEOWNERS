@@ -59,7 +59,9 @@
 **/docs/**/* @kerenkhatiwada
 **/documentation/**/* @kerenkhatiwada
 
-# Additional patterns with **/ and **/*/
+# Additional patterns with **/ and **/*/ and */**/*
+/**/ @kerenkhatiwada
 **/ @kerenkhatiwada
 **/*.js @kerenkhatiwada
 **/*/ @kerenkhatiwada
+*/**/* @kerenkhatiwada
