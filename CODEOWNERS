@@ -5,6 +5,7 @@
 /src/app/api/ @kerenkhatiwada
 /src/**/* @kerenkhatiwada
 /src/app/about/* @kerenkhatiwada
+/src/app/api/data/route.js @kerenkhatiwada
 
 # Components
 /src/app/components/ @kerenkhatiwada
